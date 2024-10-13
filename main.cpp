@@ -1,7 +1,6 @@
-#include <cstdio>
+// Does nothing intentionally
 
 int main()
 {
-    printf("hello from %s!\n", "Sandboxing");
     return 0;
 }
