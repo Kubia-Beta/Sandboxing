@@ -1,11 +1,15 @@
 class Solution {
 public:
     bool isValid(string s) {
-        //vector<bool> isClosed ({true, true, true}); // "()", "[]", "{}"
         vector<bool> closureFlag (s.size(), false);
-        //int lastIndex = 0;
-        //char lastSeen = s[0];
         bool shouldBreak = false;
+        if ((s[0] == ')') || (s[0] == ']') || (s[0] == '}')) { // if the first item closes
+            return false; // then dont bother in continuing
+        } // this is how you can get Ω(1)
+        else if (s.size() % 2 != 0) { // If our size is odd
+            return false; // we cannot have an odd number of open/close
+        }
+
         for (int i = 0; i < s.length(); i++){
             if (true == shouldBreak){
                 break;
