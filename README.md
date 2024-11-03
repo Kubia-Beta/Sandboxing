@@ -1,2 +1,5 @@
-# Sorting-And-Peak-Finding-Sandbox
-A simlpe sandbox for practicing problems with traversal, sorting, peak finding, and more. Some of these problems or similar ones to it may be found on leetcode, but these are not leetcode solutions.
+# PeakFinding.cpp
+A simple one-day exercise in practicing multithreading applications.
+
+# 20 Valdi Parenthesis.cpp
+A solution to problem #20 on leetcode. This is the first solution I came up with, and it solves for all test cases. Particularly, it solves for further test cases such as s="((((({{(([]))}})))))" and s="{([])}" as it will iterate backward to find the last unused operator.
