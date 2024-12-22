@@ -16,4 +16,10 @@ A solution to problem #21 on leetcode. In this first solution, I use an iterativ
 # [26 Remove Duplicates from Sorted Array.cpp](https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1484973838)
 A solution to problem #26 on leetcode. Here we use an algorithm to find new elements and add them to the next position for a new unique element in the array by looking behind the selected element to check for uniqueness.
 
+# [704 Binary Search](https://leetcode.com/problems/binary-search/submissions/1485009772)
+A solution to problem #704 on leetcode. Binary search is one of the most basic algorithms you learn in computer science, and it a very powerful one. Truthfully, Binary Search Trees do not really exist, they are merely doubly-linked lists with a complex algorithm (Kolman et al., 2018, p 277).
 
+
+References
+
+Kolman, B., Busby, R. C., & Ross, S. C. (2018). _Discrete mathematical structures._ Pearson. 
