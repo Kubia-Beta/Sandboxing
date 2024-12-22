@@ -6,3 +6,6 @@ A solution to problem #20 on leetcode. This is the first solution I came up with
 
 # 21 Merge Sorted Lists.cpp
 A solution to problem #21 on leetcode. In this first solution, I use an iterative approach to the nodes to construct a sorted list. This version solves for all test cases, including ones not supplied by leetcode such as "list1=[1,2,5,7,9], list2=[1,3,4]", where the sizes of the lists are inequal but not of size zero, as is with test case 3 they supply.
+
+# 26 Remove Duplicates from Sorted Array.cpp
+A solution to problem #26 on leetcode. Here we use an algorithm to find new elements and add them to the next position for a new unique element in the array by looking behind the selected element to check for uniqueness.
