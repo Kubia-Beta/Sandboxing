@@ -10,5 +10,5 @@ A solution to problem #21 on leetcode. In this first solution, I use an iterativ
 # 26 Remove Duplicates from Sorted Array.cpp
 A solution to problem #26 on leetcode. Here we use an algorithm to find new elements and add them to the next position for a new unique element in the array by looking behind the selected element to check for uniqueness.
 
-# 2 Add Two Numbers.cpp
+# [2 Add Two Numbers.cpp](https://leetcode.com/problems/add-two-numbers/submissions/1484996277)
 A partial solution to problem #2 on leetcode, 1565 / 1569 test cases passed. In this algorithm, I used some string manipulation to achieve the final result, using an unsigned long long integer to handle extremely large numbers. However, the final 4 test cases are larger than 18.4 septillion (>18,446,744,073,709,551,615), causing the test cases to fail. This is reasonable if you are trying to count the number of water molecules in a liter of water (>33.4 septillion), or if you are adding the mass of the Earth (5.98 septillion kg) multiple times.
