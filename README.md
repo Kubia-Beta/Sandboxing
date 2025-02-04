@@ -22,7 +22,7 @@ A solution to problem #26 on leetcode. Here we use an algorithm to find new elem
 # [704 Binary Search](https://leetcode.com/problems/binary-search/submissions/1485009772)
 A solution to problem #704 on leetcode. Binary search is one of the most basic algorithms you learn in computer science, and it a very powerful one. Truthfully, Binary Search Trees do not really exist, they are merely doubly-linked lists with a complex algorithm (Kolman et al., 2018, p 277).
 
-#[1668 Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/submissions/1530421710/)
+# [1668 Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/submissions/1530421710/)
 A solution to problem #1668 on leetcode. In this solution, I used a simple iterative approach that beats 100% of solutions on time complexity, and without code comments [beats 79.56% of submissions for memory](https://leetcode.com/problems/maximum-repeating-substring/submissions/1531485182/). It's a simple algorithm where you just repeatedly add a substring to a string and find if that string exists in the provided string.
 
 References
