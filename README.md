@@ -22,6 +22,9 @@ A solution to problem #26 on leetcode. Here we use an algorithm to find new elem
 # [704 Binary Search](https://leetcode.com/problems/binary-search/submissions/1485009772)
 A solution to problem #704 on leetcode. Binary search is one of the most basic algorithms you learn in computer science, and it a very powerful one. Truthfully, Binary Search Trees do not really exist, they are merely doubly-linked lists with a complex algorithm (Kolman et al., 2018, p 277).
 
+# [733 Flood Fill](https://leetcode.com/problems/flood-fill/submissions/1581725666/)
+A solution to problem #733 on leetcode. In this problem we have a 2D array of pixels that need to be filled based on matching colors, which is how a "bucket paint" tool works in programs. My first idea was to go for Depth First Search (DFS) recursion and add guards to prevent repetitive access to keep the time complexity low, and it did, beating 100% in runtime and 59.8% in memory complexity while passing all tests. The proper implementation would be a Breadth First Search (BFS) which has an explicit queue rather than recursion to avoid stack overflow risks at the cost of higher memory usage.
+
 # [1668 Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/submissions/1530421710/)
 A solution to problem #1668 on leetcode. In this solution, I used a simple iterative approach that beats 100% of solutions on time complexity, and without code comments [beats 79.56% of submissions for memory](https://leetcode.com/problems/maximum-repeating-substring/submissions/1531485182/). It's a simple algorithm where you just repeatedly add a substring to a string and find if that string exists in the provided string.
 
