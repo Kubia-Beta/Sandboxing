@@ -25,6 +25,9 @@ A solution to problem #110 on Leetcode. Here we are tasked with examining if any
 # [226 Invert Binary Tree](https://Leetcode.com/problems/invert-binary-tree/submissions/1583616632/)
 A solution to problem #226 on Leetcode. This problem requires that you "swap" the data in a binary tree, so left becomes right. I used an in-place solution leveraging a Depth First Search algorithm paired with a temporary pointer to rotate our left and right pointers between, making this code beat 100% of other algorithms on runtime and 85.9% in memory complexity, as in-place algorithms are very memory efficient. Mathematically, there is no distinction between a binary tree that is ordered left to right versus right to left (ascending vs descending), but programmatically there is a pragmatic difference.
 
+# [242 Valid Anagram]()
+A solution to problem #242 on Leetcode. This one is rather self-descriptive, and the solution I used was to map every incoming character to an integer, updating that integer if it had already been mapped, allowing any character to be a part of the anagram. This solution beats 100% of other algorithms on speed and 48.19% on memory while being incredibly flexible. To adapt it to include other cases and languages, simply add a string transform to make sure it is all the same case and consult with someone who knows the language if it is a non-latin descendant language.
+
 # [704 Binary Search](https://Leetcode.com/problems/binary-search/submissions/1485009772)
 A solution to problem #704 on Leetcode. Binary search is one of the most basic algorithms you learn in computer science, and it a very powerful one. Truthfully, Binary Search Trees do not really exist, they are merely doubly-linked lists with a complex algorithm (Kolman et al., 2018, p 277).
 
