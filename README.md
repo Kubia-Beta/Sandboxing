@@ -22,6 +22,9 @@ A solution to problem #26 on Leetcode. Here we use an algorithm to find new elem
 # [110 Balanced Tree](https://Leetcode.com/problems/balanced-binary-tree/submissions/1581823334/)
 A solution to problem #110 on Leetcode. Here we are tasked with examining if any given binary tree is height-balanced. A simple Depth First Search algorithm provides the tools we need to clear all test cases, beating 100% of other algorithms on runtime and 84% in memory complexity.
 
+# [206 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/1589509955/)
+A solution to problem #206 on Leetcode. In this trivial yet tricky task, we must reverse a singly linked list. I used an in-place two pointer approach, allowing me to beat 100% of users in runtime complexity and 90.71% in memory complexity.
+
 # [226 Invert Binary Tree](https://Leetcode.com/problems/invert-binary-tree/submissions/1583616632/)
 A solution to problem #226 on Leetcode. This problem requires that you "swap" the data in a binary tree, so left becomes right. I used an in-place solution leveraging a Depth First Search algorithm paired with a temporary pointer to rotate our left and right pointers between, making this code beat 100% of other algorithms on runtime and 85.9% in memory complexity, as in-place algorithms are very memory efficient. Mathematically, there is no distinction between a binary tree that is ordered left to right versus right to left (ascending vs descending), but programmatically there is a pragmatic difference.
 
