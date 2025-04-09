@@ -19,6 +19,9 @@ A solution to problem #21 on Leetcode. In this first solution, I use an iterativ
 # [26 Remove Duplicates from Sorted Array.cpp](https://Leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1484973838)
 A solution to problem #26 on Leetcode. Here we use an algorithm to find new elements and add them to the next position for a new unique element in the array by looking behind the selected element to check for uniqueness.
 
+# [92 Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/submissions/1601135599/)
+A solution to problem #92 on Leetcode. In this prequel to #206, I used an in-place algorithm that accesses the data that lives at each node and stores it in a vector to then swap the data that lives at each node, rather than the node pointers to demonstrate knowledge of how to manipulate both correctly. This submission beats 100% of others on Runtime, and 38.56% of others on memory. If you put in the work, you can beat 100% on memory and runtime by swapping the pointers dynamically (see #206), however, this is a more complicated algorithm for this problem than in #206 which can lead to errors.
+
 # [110 Balanced Tree](https://Leetcode.com/problems/balanced-binary-tree/submissions/1581823334/)
 A solution to problem #110 on Leetcode. Here we are tasked with examining if any given binary tree is height-balanced. A simple Depth First Search algorithm provides the tools we need to clear all test cases, beating 100% of other algorithms on runtime and 84% in memory complexity.
 
