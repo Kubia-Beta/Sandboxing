@@ -44,7 +44,7 @@ A solution to problem #733 on Leetcode. In this problem we have a 2D array of pi
 A solution to problem #1668 on Leetcode. In this solution, I used a simple iterative approach that beats 100% of solutions on time complexity, and without code comments [beats 79.56% of submissions for memory](https://Leetcode.com/problems/maximum-repeating-substring/submissions/1531485182/). It's a simple algorithm where you just repeatedly add a substring to a string and find if that string exists in the provided string.
 
 # [2591 Distribute Money to Maximum Children](https://leetcode.com/problems/distribute-money-to-maximum-children/submissions/1628859288/)
-A solution to problem #2591 on Leetcode. I picked this problem because of its low acceptance rate. Here we establish two guard cases, then begin looping to distribute the cash such that there are as many $8 children as possible (the goal). Since the only time we run into the issue of rule 3 "nobody receives 4 dollars" in exactly one scenario, we hardcode it, otherwise we handle the other possible 3 cases with minimal math and memory usage, securing us a submission that beats 100% on runtime and 94.76% on memory.
+A solution to problem #2591 on Leetcode. I picked this problem because of its low acceptance rate. Here we establish two guard cases, then begin looping to distribute the cash such that there are as many $8 children as possible (the goal). Since we run into the issue of rule 3 "nobody receives 4 dollars" in exactly one scenario, we hardcode it, otherwise we handle the other possible 3 cases with minimal math and memory usage, securing us a submission that beats 100% on runtime and 94.76% on memory.
 
 References
 
