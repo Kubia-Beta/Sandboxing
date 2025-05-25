@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        int left = 0; // Binary search pointers
+        int left = 0; // Search pointers
         int right = s.size() - 1; // size() is 1 indexed
         // Move across the string with a two pointer solution similar to how we handle binary search
         while (left <= right){

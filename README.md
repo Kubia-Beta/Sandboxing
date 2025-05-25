@@ -25,7 +25,8 @@ A solution to problem #92 on Leetcode. In this prequel to #206, I used an in-pla
 # [110 Balanced Tree](https://Leetcode.com/problems/balanced-binary-tree/submissions/1581823334/)
 A solution to problem #110 on Leetcode. Here we are tasked with examining if any given binary tree is height-balanced. A simple Depth First Search algorithm provides the tools we need to clear all test cases, beating 100% of other algorithms on runtime and 84% in memory complexity.
 
-# [125 Valid Palindrome](https://leetcode.com/problems/valid-palindrome/submissions/1643536793/)
+# [125 Valid Palindrome](https://leetcode.com/problems/valid-palindrome/submissions/1643536793
+A solution to problem #125 on Leetcode. This is a simple palindrome task that I approached with a two pointer solution. There are a few edge cases that can catch you out if you don't read carefully. My algorithm beats 100% on runtime and 99.58% on memory.
 
 # [206 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/1589509955/)
 A solution to problem #206 on Leetcode. In this trivial yet tricky task, we must reverse a singly linked list. I used an in-place two pointer approach, allowing me to beat 100% of users in runtime complexity and 90.71% in memory complexity.
